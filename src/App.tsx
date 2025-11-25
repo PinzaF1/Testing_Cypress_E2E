@@ -1,13 +1,13 @@
 import ListarUsuario from "./componentes/ListaUsuario";
 import UserList from "./componentes/UserList";
+import CrudUsuario from "./componentes/CrudUsuario";
 
 function App() {
 
   return (
-    <>
-      <ListarUsuario></ListarUsuario>
-      <UserList></UserList>
-    </>
+    <div className="App">
+      <CrudUsuario />
+    </div>
   )
 }
 
